@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+:root {
+    --uchiha0:#17141b  ;
+    --uchiha1:#f4f4f4  ;
+    --uchiha2:#99ece9  ;
+    --uchiha3:#8d0000  ;
+    --uchiha4:#13999b  ;
+    --uchiha5:#3e0248 ;
+    --uchiha6:#bb0800  ;
+    --uchiha7:#002aff  ;
+    --uchiha8:#000e57  ;
+    --uchiha9:#394154  ;
+    --uchiha10:#2c0468  ;
+--azul: #00fffb;
+--verm: #fd0002;
+    --sans0: #0abe8e;
+    --sans1: #de7a01;
+    --sans2: #b43cff;
+    --sans3: #3f0202;
+    --sans4: #008a2c;
+    --sans5: #ddff78;
+    --sans6: #0c4d48;
+    --sans7: #4b84d3;
+    --sans8: #e1ff49;
+    --sans9: #ad3286;
+    --sans10: #fee568;
+--verd: #4fffdc;
+--vert: #3fccb0;
+    --hatake0: ;
+    --hatake1: ;
+    --hatake2: ;
+    --hatake3: ;
+    --hatake4: ;
+    --hatake5: ;
+    --hatake6: ;
+    --hatake7: ;
+    --hatake8: ;
+    --hatake9: ;
+    --hatake10: ;
+}
+
+@font-face{
+    font-family: "lin1";
+    src: url(../FONTES/BebasNeue\ Bold.ttf);
+}
+
+@font-face{
+    font-family: "lin2";
+    src: url(../FONTES/FugazOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: "lin3";
+    src: url(../FONTES/roguehero3d.ttf);
+}
+
+@font-face{
+    font-family: "lin4";
+    src: url(../FONTES/RussoOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: "lin5";
+    src: url(../FONTES/STENCIL.TTF);
+}
+
+@font-face{
+    font-family: "lin7";
+    src: url(../FONTES/Caveat-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: "lin8";
+    src: url(../FONTES/Bangers-Regular.ttf);
+}
+
+@font-face{
+    font-family: "lin9";
+    src: url(../FONTES/Merienda-Black.ttf);
+}
+
+@font-face{
+    font-family: "lin10";
+    src: url(../FONTES/Rajdhani-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: "lin11";
+    src: url(../FONTES/LobsterTwo-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: "lin12";
+    src: url(../FONTES/FugazOne-Regular.ttf);
+}
+
+
+
+
+
+

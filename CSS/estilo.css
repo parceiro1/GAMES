@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+    background-color: var(--uchiha9);
+}
+
+
+div#perfil {
+    background-color: rgb(9, 2, 50);
+    padding: 20px 10px;
+    max-width: 670px;
+    min-width:400px;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header#base {
+max-width: 100%;
+min-width: 900px;
+height: 70px;
+background-color: rgb(255, 0, 93);
+border-radius: 10px;
+transform: none ;
+}
+
+nav#navega {
+   max-width: 900px;
+    height: 70px;
+    background-color: rgb(255, 0, 93);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav#navega ul#rodando li{
+    font-family: "lin1";
+    list-style: none;
+    font-size: 22px;
+    margin: auto;
+}
+
+nav#navega ul#rodando {
+    max-width: 100%;
+    margin-top: -90px;
+    display: flex;
+align-items: center;
+margin-left: 130px;margin-right: 0px;
+    border-radius: 10px;
+    width: 50%;
+    transform: none ;
+}
+
+
+nav#navega li a {
+    text-decoration: none;
+    color: white;
+    transition-duration: .3s;
+}
+
+nav#navega a:hover {
+color: var(--azul);
+}
+
+img#l {
+    display: none;
+}
+
+
+img#logo {
+max-width: 180px;
+min-height: 90px;
+width: auto;
+margin-top: -25px;
+margin-bottom: 0px;
+padding: 0px;
+}
+
+picture#menu img{
+    width: 30px;
+}
+
+picture#menu {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+/** rodape do site  **/
+
+footer{
+   display: block;
+   background-color: #50e3c2;
+   width: 100%;
+}
+
+
+footer div#rdp  {
+max-width: 920px;
+margin: auto;
+padding-top: 10px;
+text-align: center;
+}
+
+footer h1{
+    color: var(--clea);
+    font-family: 'lin9';
+    font-size: 25px;
+}
+
+footer p {
+font-size: 16px;
+font-family: 'lin9';
+}
+
+footer img#icone {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+/**   **/
+
+
+
+
+
+
+
+
+
+
+
+
+
