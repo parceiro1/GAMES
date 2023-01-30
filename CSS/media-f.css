@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+
+/** posts do site **/
+
+section#jornal-text,section#jornal-video , section#game, section#manga ,section#anime-list {
+    width: 80%;
+    background-color: var(--uchiha2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+section#perfil {
+    width: 80%;
+    background-color: var(--verd);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+section#perfil-p {
+    width: 80%;
+    background-color: var(--verd);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+section#anime {
+    width: 80%;
+    background-color: var(--uchiha3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+section#evento, section#livro ,section#geek {
+    padding: 8px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#publicidade{
+    padding: 8px;
+    height: 96px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--sans1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#publicidade1{
+    padding: 8px;
+    height: 96px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--uchiha1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#rede {
+    padding: 8px;
+     border-radius: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     background-color: var(--uchiha2);
+     margin-bottom: 10px;
+     margin-top:10px;
+ }
+
+/** img do site **/
+
+img#icone {
+    width: 35px;
+    height: 35px;
+}
+
+img#publicidade{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+img#redeicone {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+img#social {
+    border-radius: 20px;
+    margin-top: -20px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+img#perfil{
+    width:90px;
+    height: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 100px;
+    border: chartreuse solid 2px;     
+}
+
+img#redelogo{
+    width:200px;
+    height: 200px;
+    display: block;
+    border: 4px var(--uchiha7) solid;
+    margin: auto;
+    border-radius: 100px;
+    transition-duration: 0.7s;
+}
+
+img#ft-evento {
+    width: 95%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: var(--uchiha7) solid 3px;
+}
+
+img#gamecapa {
+    	display: block;
+    margin: auto;
+    max-width: 250px;
+    border-radius: 40px;
+}
+
+img#jornal-text, img#capa, img#anicapa {
+    margin: auto;
+    max-width: 100%;
+    min-width: 90x;
+    display: block;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+/** h2 do site **/
+
+section#evento h2 {
+    text-align: right;		
+    font-size: 16px;
+    font-family: "lin9";
+    color: var(--azul);
+}
+
+section#perfil h2 {
+    text-align: center;
+    font-family: 'lin12';
+    margin-top: 2px;
+    font-size: 22px;
+}
+
+section#perfil-p h2 {
+    text-align: center;
+    font-family: 'lin12';
+    margin-top: 2px;
+    font-size: 22px;
+}
+
+section#manga h2, section#jornal-video h2,section#anime-list h2, section#jornal-text h2 {
+    color: var(--uchiha8);
+    font-family: "lin5";
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/** h1 do site **/
+
+section#rede h1 ,section#livro h1,section#evento h1 {
+    color: var(--verm);
+    font-family: "lin11";
+}
+
+hgroup#ep h1{
+    color: var(--sans8);
+    font-family: 'lin1';
+    font-size: 30px;
+}
+
+
+section#anime h1{
+    color: var(--azul);
+    font-family: 'lin1';
+    font-size: 35px;
+}
+
+section#publicidade h1{
+    font-size: 22px;
+    margin-top: 0px;
+    font-family: 'lin1';
+    color: var(--uchiha2);
+}
+
+section#publicidade1 h1{
+    font-size: 22px;
+    margin-top: 0px;
+    font-family: 'lin1';
+    color: var(--uchiha7);
+}
+
+section#perfil h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    font-family: "lin2";
+    font-size: 22px;
+    color:green;
+}
+
+section#perfil-p h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    font-family: "lin2";
+    font-size: 22px;
+    color:green;
+}
+
+section#jornal-text h1, section#evento h1{
+    text-align: center;
+}
+
+section#manga h1, section#jornal-video h1 , section#rede h1,section#game h1 ,section#anime-list h1,section#jornal-text h1 {
+    font-family: "lin2";
+    font-size: 22px;
+    color: var(--uchiha7) ;
+    text-decoration: underline;
+}
+
+
+section#perfil h3 {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 6px;
+    font-family: "lin2";
+    font-size: 18px;
+    color: var(--sans6);
+}
+
+
+
+
+
+
+
+/** a do site **/
+
+section#jornal-text a,section#publicidade a, section#jornal-video a ,section#publicidade1 a, section#manga a ,section#anime-list a{
+    text-decoration: none;
+    font-family: "lin12";
+    font-size: 15px;
+    color: var(--uchiha10);
+    }
+
+    hgroup#ep a {
+        color: var(--sans5);
+        margin-left: 5px;
+        background-color: #000000;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 4px;
+        margin-right: 4px;
+        text-decoration: none;
+        font-family: 'lin12';
+        font-size: 20px;
+    }
+
+/** p do site **/
+
+section#game p,section#geek p,section#rede p {
+    text-decoration: none;
+    font-family: "lin2";
+    font-size: 15px;
+    color: var(--verm);
+}
+
+section#anime p{
+    text-decoration: none;
+    font-family: "lin2";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+section#perfil p {
+    text-decoration: none;
+    font-family: "lin2";
+    font-size: 15px;
+    color: var(--verm);
+}
+
+
+/** videos/iframes do canal **/
+
+iframe#play {
+    width: 300px;
+    height: 250px;
+    border: var(--sans4) solid 4px;
+    display: block;
+    margin: auto;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+iframe#ntc {
+    width: 280px;
+    height: 215px;
+    border: var(--sans4) solid 4px;
+    display: block;
+    margin: auto;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+/** figure do site   **/
+
+figure#links {
+    border: var(--uchiha5) solid 4px ;
+    border-radius: 10px;
+}
+
+figure#links img{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+figure#manga {
+    align-items: center;
+
+}
+
+figure#manga img {
+    width: 100%;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    }
+
+    figure#modelo {
+        align-items: center;
+        display: block;
+    }
+    
+figure#modelo img {
+        width: 30%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        margin-top:5px;
+        margin-bottom: 5px;
+        transition-duration: 1s;
+        }
+
+figure#modelo img:hover {
+width: 100%;
+height: 100%;
+max-width: 85%;
+} 
+
+/** article do site  **/
+
+section#publicidade article{
+    margin-top: 0px;
+    margin-left: 93px;
+    display: inline-block;
+}
+
+section#publicidade1 article{
+    margin-top: 0px;
+    margin-left: 93px;
+    display: inline-block;
+}
+
+/** hgroup do site  **/
+
+hgroup#ep {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/
+/** post de   **/

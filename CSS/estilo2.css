@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/** configuração fone  **/
+
+body {
+    background-color: var(--uchiha9);
+}
+
+div#perfil {
+    background-color: rgb(9, 2, 50);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header#base {
+width: 100%;
+background-color: rgb(255, 0, 93);
+border-radius: 10px;
+position: relative;
+}
+
+picture#menu img{
+    width: 30px;
+    margin: auto;
+}
+
+picture#menu {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+picture#menu:hover {
+background-color: var(--sans8);
+}
+
+
+/**   **/
+img#l {
+    display: block;
+}
+
+nav#navega {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 93);
+}
+
+img#logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+nav#navega ul#rodando li{
+    font-family: "lin1";
+    font-size: 22px;
+  
+}
+
+nav#navega ul#rodando {
+list-style: none;
+    border-radius: 5px;
+    margin: auto;
+    display: none;
+    padding: 6px;
+    background-color: aqua;
+}
+
+
+nav#navega li a {
+    text-decoration: none;
+    color: white;
+    transition-duration: .3s;
+}
+
+nav#navega a:hover {
+color: var(--verm);
+}
+
+
+/** rodape do site  **/
+
+footer{
+   background-color: #50e3c2;
+   width: 100%;
+    margin-top: 0px;
+}
+
+
+footer div#rdp  {
+margin: auto;
+padding-top: 10px;
+text-align: center;
+}
+
+footer h1{
+    color: var(--clea);
+    font-family: 'lin9';
+    font-size: 25px;
+}
+
+footer p {
+font-size: 16px;
+font-family: 'lin9';
+}
+
+footer img#icone {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
